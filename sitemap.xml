@@ -49,4 +49,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>https://github.com/StatisticalMice/posts/simple-moving-average-comparison/index.html</loc>
+    <lastmod>2020-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
 </urlset>
