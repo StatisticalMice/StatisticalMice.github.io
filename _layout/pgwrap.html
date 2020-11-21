@@ -10,13 +10,19 @@
     <input type="checkbox" id="show-menu" role="button">
     <div class="menu" id="side-menu">
       <ul class="menu-list">
-        <li class="menu-list-item {{ispage index}}active{{end}}"><a href="/" class="menu-list-link {{ispage index}}active{{end}}">Home</a>
-        <li class="menu-list-item {{ispage menu1/*}}active{{end}}"><a href="/menu1/" class="menu-list-link {{ispage menu1}}active{{end}}">Code blocks</a>
-        <li class="menu-list-item {{ispage menu2/*}}active{{end}}"><a href="/menu2/" class="menu-list-link {{ispage menu2}}active{{end}}">More goodies</a>
-        <li class="menu-list-item {{ispage menu3/*}}active{{end}}"><a href="/menu3/" class="menu-list-link {{ispage menu3}}active{{end}}">Tags</a>
+        <li class="menu-list-item {{ispage index or ispage posts/*}}active{{end}}"><a href="/" class="menu-list-link {{ispage index}}active{{end}}">Home</a>
           <ul class="menu-list-child-list ">
-            <li class="menu-list-item "><a href="#" class="menu-list-link">Submenu</a>
+            <li class="menu-list-item "><a href="/posts/first-post/" class="menu-list-link">First post</a>
           </ul>
+        </li>
+        <li class="menu-list-item {{ispage resources/*}}active{{end}}"><a href="/resources/" class="menu-list-link {{ispage resources}}active{{end}}">Resources</a>
+          <ul class="menu-list-child-list ">
+            <li class="menu-list-item "><a href="/resources/franklin-franklin/" class="menu-list-link ">Franklin</a>
+            <li class="menu-list-item "><a href="/resources/franklin-code-blocks/" class="menu-list-link ">Code blocks</a>
+            <li class="menu-list-item "><a href="/resources/franklin-goodies/" class="menu-list-link ">More goodies</a>
+            <li class="menu-list-item "><a href="/resources/franklin-tags/" class="menu-list-link ">Tags</a>    
+          </ul>
+        </li>
       </ul>
     </div>
     <div class="footer">

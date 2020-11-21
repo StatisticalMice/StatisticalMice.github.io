@@ -1,12 +1,10 @@
-@def title = "Menu 3"
+@def title = "Working with tags"
 
 # Working with tags
 
 **Example**:
 
-* page with tag [`syntax`](/tag/syntax/)
-* page with tag [`image`](/tag/image/)
-* page with tag [`code`](/tag/code/)
+* page with tag [`franklin`](/tag/franklin/)
 
 \toc
 
