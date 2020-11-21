@@ -6,12 +6,18 @@ This post contains some comparison notes between these three languages.
 
 ## Performance using packages and running code
 
-Using a package requires installing it, loading it in a script, and running it.
-* Python and R are somewhat slower than Julia when _installing packages_. Python and R use it for compiling and Julia for precompiling.
-* Julia is much slower when _loading a package_ in a script than Python or R. Similarly _running a piece of code for the first time_ is much slower. This difference comes from the fact that Julia does more precompiling at this stage.
-* When _executing code_ Julia is much faster than Python or R because it is compiled to native code. When Python or R call code implemented in a package that's compiled to native code, the speeds are similar.
-
 Summary: Julia has a performance edge when doing slightly larger computations for which R or Python don't have an optimized library already available.
+
+Using a package requires loading it in a script, and running it.
+* Julia is slower when _loading a package_ in a script than Python or R. Similarly _running a piece of code for the first time_ is slower. This difference comes from the fact that Julia does precompiling at this stage.
+* When _executing code_ Julia is faster than Python or R because it is compiled to native code. When Python or R call code implemented in a package that's compiled to native code, the speeds are similar.
+
+An example task was performed and benchmarked: calculating the simple moving average for a dataframe column containing 1,000,000 samples from the standard normal distribution.
+* Python needed 0.70 seconds to import packages and run the task.
+* Python needed 28 ms to run the task directly via Numpy and up to 6.03 seconds when using a custom function calling the Numpy function. This can be accelerated to 202 ms using Numba.
+* Julia needed 9.0 seconds to import packages and run the task.
+* Julia needed 14 ms to run the task. 
+* Read more in [Simple moving average speed comparison in Julia, Python and R](/posts/simple-moving-average-comparison)
 
 ## Calling code in one language from another
 
