@@ -13,10 +13,14 @@ The task is to calculate the simple moving average for a dataframe column contai
 * Calculating SMA by calling Numpy via a user defined function took 6.03 *seconds* (mean).
 * Calculating SMA by calling Numpy via a user defined function, but accelerating with Numba could not be run yet, because at the time of writing it is not supported in Python 3.9. A previous run of this took 202 ms (mean).
 
+[Python notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/python-moving-average.ipynb)
+
 ## Julia
 
 * Running the jupyter notebook took 9.0 seconds.
 * Calculating SMA took 14 ms (mean). 
+
+[Julia notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/julia-moving-average.ipynb)
 
 ## R
 
