@@ -1,5 +1,5 @@
 @def title = "Statistical Mice"
-@def tags = []
+@def tags = ["template"]
 
 # How to use Franklin
 
