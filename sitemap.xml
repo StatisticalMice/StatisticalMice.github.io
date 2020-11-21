@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://github.com/StatisticalMice/menu3/index.html</loc>
+    <loc>https://github.com/StatisticalMice/posts/first-post/index.html</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://github.com/StatisticalMice/menu1/index.html</loc>
+    <loc>https://github.com/StatisticalMice/resources/franklin-franklin/index.html</loc>
+    <lastmod>2020-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://github.com/StatisticalMice/resources/index.html</loc>
+    <lastmod>2020-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://github.com/StatisticalMice/resources/franklin-goodies/index.html</loc>
+    <lastmod>2020-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://github.com/StatisticalMice/resources/franklin-tags/index.html</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -20,13 +38,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://github.com/StatisticalMice/404/index.html</loc>
+    <loc>https://github.com/StatisticalMice/resources/franklin-code-blocks/index.html</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://github.com/StatisticalMice/menu2/index.html</loc>
+    <loc>https://github.com/StatisticalMice/404/index.html</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
