@@ -4,25 +4,29 @@
 
 [Simple moving average in Wikipedia](https://en.wikipedia.org/wiki/Moving_average)
 
-The task is to calculate the simple moving average for a dataframe column containing 1,000,000 samples from the standard normal distribution and storing it in another column. The sliding window is of length 10.
+# The task
+
+* Generate 10^8 random samples from the standard normal distribution
+* Calculate SMA with window size 10
+
+## Summary
+
+| Language | Load libraries and run task | Genere random samples (mean) | Run SMA (mean) |
+| -------- | --------------------------- |---------------------- | ------- |
+| Julia    | 13.1 s| 1.3 s | 931 ms |
+| Python   | 10.6 s| 3.3 s | 6.2 s |
+| R        | 5.9 s | 4.5 s | 1.3 s |
+
 
 ## Python
-
-* Running the jupyter notebook took 0.70 seconds. 
-* Calculating SMA by calling Numpy directly took 28 ms (mean).
-* Calculating SMA by calling Numpy via a user defined function took 6.03 *seconds* (mean).
-* Calculating SMA by calling Numpy via a user defined function, but accelerating with Numba could not be run yet, because at the time of writing it is not supported in Python 3.9. A previous run of this took 202 ms (mean).
 
 [Python notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/python-moving-average.ipynb)
 
 ## Julia
 
-* Running the jupyter notebook took 9.0 seconds.
-* Calculating SMA took 14 ms (mean). 
-
 [Julia notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/julia-moving-average.ipynb)
 
 ## R
 
-Not done yet.
+[R notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/r-moving-average.ipynb)
 
