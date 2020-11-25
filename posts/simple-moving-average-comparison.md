@@ -20,13 +20,13 @@
 
 ## Python
 
-[Python notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/python-moving-average.ipynb)
+[Python notebook](https://github.com/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/python-moving-average.ipynb)
 
 ## Julia
 
-[Julia notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/julia-moving-average.ipynb)
+[Julia notebook](https://github.com/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/julia-moving-average.ipynb)
 
 ## R
 
-[R notebook](https://nbviewer.jupyter.org/github/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/r-moving-average.ipynb)
+[R notebook](https://github.com/StatisticalMice/ProjectsPublic/blob/main/Benchmarks/r-moving-average.ipynb)
 
