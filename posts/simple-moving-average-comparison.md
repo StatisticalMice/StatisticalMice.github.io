@@ -11,7 +11,7 @@
 
 ## Summary
 
-| Language | Load libraries and run task | Genere random samples (mean) | Run SMA (mean) |
+| Language | Load libraries and run task | Generate random samples (mean) | Run SMA (mean) |
 | -------- | --------------------------- |---------------------- | ------- |
 | Julia    | 13.1 s| 1.3 s | 931 ms |
 | Python   | 10.6 s| 3.3 s | 6.2 s |
