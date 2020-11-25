@@ -25,11 +25,12 @@ The notebooks were run in a 2020 MacBook Pro with four ports (standard configura
 | -------- | --------------------------- |---------------------- | ------- |
 | Julia [^1]    | 13.0 s| 1.3 s | 1.3 s |
 | Julia [^2]   | 2.8 s| 1.2 s | 1.1 s |
-| Python   | 10.6 s| 3.3 s | 6.2 s |
-| R        | 5.9 s | 4.5 s | 1.3 s |
+| Python [^3]  | 10.6 s| 3.3 s | 6.2 s |
+| R [^3]       | 5.9 s | 4.5 s | 1.3 s |
 
 [^1]: Measures Julia performance when run in a fresh kernel and incurs costs for compiling code.
-[^1]: Measures re-running the Julia notebook, so code has already been compiled.
+[^2]: Measures re-running the Julia notebook, so code has already been compiled.
+[^3]: There was no significant difference between the first and second runs.
 
 ## Python
 
