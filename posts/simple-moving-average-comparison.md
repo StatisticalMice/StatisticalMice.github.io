@@ -26,11 +26,12 @@ The notebooks were run in a 2020 MacBook Pro with four ports (standard configura
 | Julia [^1]    | 13.0 s| 1.3 s | 1.3 s |
 | Julia [^2]   | 2.8 s| 1.2 s | 1.1 s |
 | Python [^3]  | 10.6 s| 3.3 s | 6.2 s |
-| R [^3]       | 5.9 s | 4.5 s | 1.3 s |
+| R [^4] | 45 s | 4.7 s | 1.0 s / 43.7 s |
 
 [^1]: Measures Julia performance when run in a fresh kernel and incurs costs for compiling code.
 [^2]: Measures re-running the Julia notebook, so code has already been compiled.
 [^3]: There was no significant difference between the first and second runs.
+[^4]: R was quite fast in calculating the moving average, but data.frame handling was really slow for this code. The last column shows first just the SMA calculation, and then the time required for also updating the data.frame. R code should probably be re-written using data.table.
 
 ## Python
 
