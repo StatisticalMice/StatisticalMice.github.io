@@ -23,8 +23,8 @@ The notebooks were run in a 2020 MacBook Pro with four ports (standard configura
 
 | Language | Load libraries and run task | Generate random samples (mean) | Run SMA (mean) |
 | -------- | --------------------------- |---------------------- | ------- |
-| Julia [^1]    | 13.0 s| 1.3 s | 1.3 s |
-| Julia [^2]   | 2.8 s| 1.2 s | 1.1 s |
+| Julia [^1]    | 14.1 s| 1.4 s | 147 ms |
+| Julia [^2]   | 3.0 s| 1.4 s | 140 ms |
 | Python [^3]  | 10.6 s| 3.3 s | 6.2 s |
 | R [^4] | 45 s | 4.7 s | 1.0 s / 43.7 s |
 
