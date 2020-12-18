@@ -4,6 +4,18 @@
 
 This post contains some comparison notes between these three languages.
 
+## DataFrames.jl vs. pandas vs. dplyr
+
+[Comparison from DataFrames.jl user guide](https://dataframes.juliadata.org/latest/man/comparisons/)
+
+[Reducing Pandas memory usage #1: lossless compression](https://pythonspeed.com/articles/pandas-load-less-data/)
+[Reducing Pandas memory usage #2: lossy compression](https://pythonspeed.com/articles/pandas-reduce-memory-lossy/)
+https://pythonspeed.com/articles/data-doesnt-fit-in-memory/
+https://pythonspeed.com/datascience/
+https://pandas.pydata.org/docs/user_guide/gotchas.html#dataframe-memory-usage
+https://www.dataquest.io/blog/pandas-big-data/
+
+
 ## Performance using packages and running code
 
 * Julia is slower than Python or R when loading packages in a script or during initial running of functions due to precompiling.
